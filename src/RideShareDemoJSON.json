@@ -1,0 +1,178 @@
+{
+    "demoDetails": {
+        "users": [
+            {
+                "name": "test driver",
+                "email": "testdriver@test.com",
+                "Role": "Driver",
+                "password": "testdriver123",
+                "status": "available",
+                "rides": [
+                    {
+                        "type": "Car - Mercedes",
+                        "fare": "200",
+                        "email": "JohnWick@test.com",
+                        "name": "John Wick",
+                        "feedback": "Great ride! Would definitely recommend."
+                    },
+                    {
+                        "type": "Car - Toyota",
+                        "fare": "150",
+                        "email": "sarah@test.com",
+                        "name": "Sarah",
+                        "feedback": "Smooth journey, thanks!"
+                    },
+                    {
+                        "type": "Bike - Harley Davidson",
+                        "fare": "100",
+                        "email": "michael@test.com",
+                        "name": "Michael",
+                        "feedback": "Awesome ride, loved it!"
+                    },
+                    {
+                        "type": "Car - BMW",
+                        "fare": "180",
+                        "email": "emily@test.com",
+                        "name": "Emily",
+                        "feedback": "Excellent service, very professional."
+                    },
+                    {
+                        "type": "Bus - Volvo",
+                        "fare": "120",
+                        "email": "james@test.com",
+                        "name": "James",
+                        "feedback": "Comfortable journey, thanks!"
+                    },
+                    {
+                        "type": "Car - Audi",
+                        "fare": "220",
+                        "email": "linda@test.com",
+                        "name": "Linda",
+                        "feedback": "Outstanding ride, highly recommended."
+                    },
+                    {
+                        "type": "Bike - Yamaha",
+                        "fare": "80",
+                        "email": "chris@test.com",
+                        "name": "Chris",
+                        "feedback": "Fantastic experience, will ride again!"
+                    }
+                ]
+            },
+            {
+                "name": "test customer",
+                "email": "testcustomer@test.com",
+                "Role": "Customer",
+                "password": "testcustomer123",
+                "rides": [
+                    {
+                        "type": "Car - Mercedes",
+                        "fare": "200",
+                        "email": "JohnWick@test.com",
+                        "name": "John Wick",
+                        "feedback": "Great ride! Would definitely recommend."
+                    },
+                    {
+                        "type": "Car - Toyota",
+                        "fare": "150",
+                        "email": "sarah@test.com",
+                        "name": "Sarah",
+                        "feedback": "Smooth journey, thanks!"
+                    },
+                    {
+                        "type": "Bike - Harley Davidson",
+                        "fare": "100",
+                        "email": "michael@test.com",
+                        "name": "Michael",
+                        "feedback": "Awesome ride, loved it!"
+                    },
+                    {
+                        "type": "Car - BMW",
+                        "fare": "180",
+                        "email": "emily@test.com",
+                        "name": "Emily",
+                        "feedback": "Excellent service, very professional."
+                    },
+                    {
+                        "type": "Bus - Volvo",
+                        "fare": "120",
+                        "email": "james@test.com",
+                        "name": "James",
+                        "feedback": "Comfortable journey, thanks!"
+                    },
+                    {
+                        "type": "Car - Audi",
+                        "fare": "220",
+                        "email": "linda@test.com",
+                        "name": "Linda",
+                        "feedback": "Outstanding ride, highly recommended."
+                    },
+                    {
+                        "type": "Bike - Yamaha",
+                        "fare": "80",
+                        "email": "chris@test.com",
+                        "name": "Chris",
+                        "feedback": "Fantastic experience, will ride again!"
+                    }
+                ]
+            },
+            {
+                "name": "John Wick",
+                "email": "JohnWick@test.com",
+                "Role": "Customer",
+                "password": "testcustomer123",
+                "rides": [
+                    {
+                        "type": "Car - Mercedes",
+                        "fare": "200",
+                        "email": "JohnWick@test.com",
+                        "name": "John Wick",
+                        "feedback": "Great ride! Would definitely recommend."
+                    },
+                    {
+                        "type": "Car - Toyota",
+                        "fare": "150",
+                        "email": "sarah@test.com",
+                        "name": "Sarah",
+                        "feedback": "Smooth journey, thanks!"
+                    },
+                    {
+                        "type": "Bike - Harley Davidson",
+                        "fare": "100",
+                        "email": "michael@test.com",
+                        "name": "Michael",
+                        "feedback": "Awesome ride, loved it!"
+                    },
+                    {
+                        "type": "Car - BMW",
+                        "fare": "180",
+                        "email": "emily@test.com",
+                        "name": "Emily",
+                        "feedback": "Excellent service, very professional."
+                    },
+                    {
+                        "type": "Bus - Volvo",
+                        "fare": "120",
+                        "email": "james@test.com",
+                        "name": "James",
+                        "feedback": "Comfortable journey, thanks!"
+                    },
+                    {
+                        "type": "Car - Audi",
+                        "fare": "220",
+                        "email": "linda@test.com",
+                        "name": "Linda",
+                        "feedback": "Outstanding ride, highly recommended."
+                    },
+                    {
+                        "type": "Bike - Yamaha",
+                        "fare": "80",
+                        "email": "chris@test.com",
+                        "name": "Chris",
+                        "feedback": "Fantastic experience, will ride again!"
+                    }
+                ]
+            }
+        ]
+    }
+}

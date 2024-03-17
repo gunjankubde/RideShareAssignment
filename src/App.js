@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Login from "./loginForm";
+import Registration from "./Registration";
+import Dashboard from './CustomerDashboard';
+import Rides from './ShowRides';
+import OnGoingRide from './OnGoingRide';
+import RideComplete from './RIdeComplete';
 import './App.css';
+import { ToastContainer } from "react-toastify";
+import { useEffect, useState } from 'react';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ToastContainer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/home" element={<Registration />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/rides" element={<Rides />} />
+          <Route path="/ongoingride" element={<OnGoingRide />} />
+          <Route path="/ridecomplete" element={<RideComplete />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
